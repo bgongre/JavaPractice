@@ -10,7 +10,7 @@ public class Jungle {
         this.monkey = monkey;
     }
 
-    //did not call methods for each animal sound to avoid energy being used,
+    //Animal sound methods were not called for each animal to avoid energy being used,
     //this is purely for getting energy after random activities
     public void jungleSoundOff(){
         System.out.println("Tiger: Rawr~!");

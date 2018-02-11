@@ -31,27 +31,31 @@ public class Main {
         Jungle jungle = new Jungle(snake, tiger, monkey);
 
         //call for animals to do random activities
+        System.out.println("====Monkey Activities====");
         monkey.rndMonkeyActivity();
         monkey.rndMonkeyActivity();
         monkey.rndMonkeyActivity();
         monkey.rndMonkeyActivity();
         monkey.rndMonkeyActivity();
         System.out.println("==========================");
+        System.out.println("=====Snake Activities=====");
         snake.rndSnakeActivity();
         snake.rndSnakeActivity();
         snake.rndSnakeActivity();
         snake.rndSnakeActivity();
         snake.rndSnakeActivity();
         System.out.println("==========================");
+        System.out.println("=====Tiger Activities=====");
         tiger.rndTigerActivity();
         tiger.rndTigerActivity();
         tiger.rndTigerActivity();
         tiger.rndTigerActivity();
         tiger.rndTigerActivity();
         tiger.rndTigerActivity();
-        System.out.println("==========================");
+        System.out.println("=========================");
 
         //have each animal report their sound and energy level
+        System.out.println("=====Jungle Soundoff=====");
         jungle.jungleSoundOff();
 
     }
